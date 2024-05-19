@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "//devwintery.github.io/wintery.com/static/css/main.f855e6bc.css",
+    "main.js": "//devwintery.github.io/wintery.com/static/js/main.9da75086.js",
+    "static/js/453.bc463051.chunk.js": "//devwintery.github.io/wintery.com/static/js/453.bc463051.chunk.js",
+    "static/media/logo.svg": "//devwintery.github.io/wintery.com/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "//devwintery.github.io/wintery.com/index.html",
+    "main.f855e6bc.css.map": "//devwintery.github.io/wintery.com/static/css/main.f855e6bc.css.map",
+    "main.9da75086.js.map": "//devwintery.github.io/wintery.com/static/js/main.9da75086.js.map",
+    "453.bc463051.chunk.js.map": "//devwintery.github.io/wintery.com/static/js/453.bc463051.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.9da75086.js"
+  ]
+}
