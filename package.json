@@ -1,49 +1,38 @@
 {
-  "name": "wintery.com",
-  "version": "0.1.0",
+  "name": "shiftpsh.com",
+  "version": "2023.0.0",
   "private": true,
-  "homepage": "https://https://devwintery.github.io/wintery.com",
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.5.2",
-    "@types/node": "^16.18.97",
-    "@types/react": "^18.3.2",
-    "@types/react-dom": "^18.3.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-scripts": "5.0.1",
-    "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4"
-  },
+  "homepage": "https://devwintery.github.io/wintery.com",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next export",
+    "deploy": "npm run build && npm run export && gh-pages -d out"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@floating-ui/react": "^0.26.12",
+    "@solved-ac/ui-react": "^0.6.4",
+    "@tabler/icons-react": "^3.2.0",
+    "@types/node": "18.11.18",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^14.2.1",
+    "framer-motion": "^11.0.28",
+    "next": "^14.2.1",
+    "next-mdx-remote": "^4.4.1",
+    "node-html-parser": "^6.1.13",
+    "polished": "^4.3.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "remark-gfm": "^4.0.0",
+    "runtypes": "^6.7.0"
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "typescript": "^5.4.5"
   }
 }
