@@ -53,6 +53,15 @@ const Page = () => {
       <Typo h3>수상 및 출전</Typo>
       <Itemize>
         <Item>
+          <b>
+          <ExternalLinkInline href="https://github.com/DevWintery/HackingRat">
+            호서대학교 게임잼
+          </ExternalLinkInline>{" "}
+          2023
+          </b>
+          <Year>2023. 12. 15</Year>팀 Cook(김경민, 고다현, 이선민, 박형준, 음영준), 1위
+        </Item>
+        <Item>
           <ExternalLinkInline href="https://news.unn.net/news/articleView.html?idxno=502556">
             Global Game Challenge(GGC)
           </ExternalLinkInline>{" "}
@@ -209,7 +218,7 @@ const Page = () => {
         </Item>
         <Item>
           <b>
-            호서대학교 게임과 소속 연구실 Game Media Lab. 연구원 소속
+            호서대학교 게임과 소속 연구실 Game Media Lab. 연구원
           </b>
           <Year>2019. 6 &ndash; 2021. 2</Year>
         </Item>

@@ -172,7 +172,7 @@ const Page = () => {
           지식을 공유하는 것을 좋아하는 이유는 가르침을 주고받는 동안 시야가 넓어지고, 새로운 관점과 아이디어를 얻을 수 있기 때문입니다. 이러한 경험들은 저를 더욱 성장하게 만들며, 함께 배우고 발전하는 과정을 즐깁니다.
       </Content>
       <Content>
-          고등학교부터 배운지식을 신입생에게 알려주는{" "}
+          고등학교에서 먼저 배운지식을 신입생에게 공유하는{" "}
           <ExternalLinkInline href = "https://ashwinter.notion.site/61929127292e467086b8d6851058b27e?pvs=4">
               C++세미나
           </ExternalLinkInline>
