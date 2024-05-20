@@ -78,7 +78,7 @@ const Page = () => {
   return (
     <MainContainer>
       <Space h={160} />
-      <Logo src="/img/wintery-logo.png" alt="wintery" />
+      <Logo src="/wintery.com/img/wintery-logo.png" alt="wintery" />
       <BiggerSectionCaption>
         <IntroBold>안녕하세요, 게임 프로그래머 김경민입니다. </IntroBold>{" "}
         홈페이지 만드는거 넘모 어렵습니다 살려주세요
@@ -96,10 +96,10 @@ const Page = () => {
             <IconAt />
           </HistoryIcon>
           <HistoryContent>
-            <a href={`mailto:${clientInitialized ? "dev.wintery@gmail.com" : ""}`}>
+            <a href={`mailto:${"dev.wintery@gmail.com"}`}>
               <Email
                 src="/img/email.svg"
-                alt={clientInitialized ? "dev.wintery@gmail.com" : ""}
+                alt={"dev.wintery@gmail.com"}
               />
             </a>
           </HistoryContent>
