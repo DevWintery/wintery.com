@@ -78,16 +78,16 @@ const Page = () => {
   return (
     <MainContainer>
       <Space h={160} />
-      <Logo src="/shiftpsh-logo-2019.svg" alt="shiftpsh" />
+      <Logo src="/img/wintery-logo.png" alt="wintery" />
       <BiggerSectionCaption>
-        <IntroBold>안녕하세요, 개발자 겸 디자이너 박수현입니다.</IntroBold>{" "}
-        분야를 불문하고 능력치를 최대한 발휘해 문제를 정의하고 해결하는 것을
-        좋아합니다. 많은 사람에게 도움이 되는 디자인과 소프트웨어를 만들기 위해
-        끊임없이 고민하고 있습니다.
+        <IntroBold>안녕하세요, 게임 프로그래머 김경민입니다. </IntroBold>{" "}
+        홈페이지 만드는거 넘모 어렵습니다 살려주세요
+        여기에 무슨 글을 채워 넣을까요
+        고민하고있어요
       </BiggerSectionCaption>
       <Space h={32} />
       <Typo h3 no-margin>
-        박수현 Suhyun Park
+        김경민 Kyeongmin Kim
       </Typo>
       <Space h={16} />
       <HistoryEntries>
@@ -96,10 +96,10 @@ const Page = () => {
             <IconAt />
           </HistoryIcon>
           <HistoryContent>
-            <a href={`mailto:${clientInitialized ? "me@shiftpsh.com" : ""}`}>
+            <a href={`mailto:${clientInitialized ? "dev.wintery@gmail.com" : ""}`}>
               <Email
                 src="/img/email.svg"
-                alt={clientInitialized ? "me@shiftpsh.com" : ""}
+                alt={clientInitialized ? "dev.wintery@gmail.com" : ""}
               />
             </a>
           </HistoryContent>
@@ -109,10 +109,9 @@ const Page = () => {
             <IconBriefcase />
           </HistoryIcon>
           <HistoryContent>
-            <ExternalLinkInline href="https://solved.ac">
-              솔브드
+            <ExternalLinkInline>
+              무직
             </ExternalLinkInline>{" "}
-            대표
           </HistoryContent>
         </HistoryEntry>
         <HistoryEntry>
@@ -120,10 +119,10 @@ const Page = () => {
             <IconSchool />
           </HistoryIcon>
           <HistoryContent>
-            <ExternalLinkInline href="https://www.sogang.ac.kr">
-              서강대학교
+            <ExternalLinkInline href="http://www.hoseo.ac.kr/Home/Main.mbz">
+              호서대학교
             </ExternalLinkInline>{" "}
-            컴퓨터공학과 학부 4학년
+            게임소프트웨어학과 4학년
           </HistoryContent>
         </HistoryEntry>
         <HistoryEntry>
@@ -132,10 +131,10 @@ const Page = () => {
           </HistoryIcon>
           <HistoryContent>
             前{" "}
-            <ExternalLinkInline href="https://career.nexon.com/user/recruit/member/postList?joinCorp=GN">
-              엔진스튜디오(넥슨)
+            <ExternalLinkInline>
+              주식회사 Nol
             </ExternalLinkInline>{" "}
-            소프트웨어 엔지니어 (파트장)
+            클라이언트 프로그래머
           </HistoryContent>
         </HistoryEntry>
       </HistoryEntries>
@@ -148,79 +147,46 @@ const Page = () => {
       <figure>
         <FullwidthImage
           src="/img/intro-solvedac.jpg"
-          alt="solved.ac 그랜드 아레나 파티에서 대회에 참전 중인 참가자들의 뒷모습을 촬영한 사진."
+          alt="뭔 사진을 넣으면 좋겠네요"
         />
-        <MainImageCaption>solved.ac Grand Arena (2024)</MainImageCaption>
+        <MainImageCaption>저의 프로젝트에요!(20nn)</MainImageCaption>
       </figure>
       <SectionCaption>
-        솔브드는 대한민국이 코딩 테스트와 알고리즘 문제해결을 공부하는 방법을
-        바꿨습니다.
+        대충 설명좀 넣고
       </SectionCaption>
       <LinksRow>
-        <ExternalLink href="https://solved.ac">solved.ac</ExternalLink>
-        <ExternalLink href="https://www.youtube.com/watch?v=ggD9ry05axw">
-          소개 (프로그래머스 컨퍼런스)
-        </ExternalLink>
+        <ExternalLink href="">깃허브</ExternalLink>
       </LinksRow>
       <Space h={16} />
       <Content>
-        커뮤니티의 문제 난이도 기여를 기반으로 하여 알고리즘 문제해결을
-        게이미피케이션하고, 이를 통해 즐겁게 문제를 풀면서 성장한 프로그래머들이
-        다시 커뮤니티에 기여하도록 하는 선순환 모델은 대한민국 최대 온라인
-        저지인{" "}
-        <ExternalLinkInline href="https://acmicpc.net">
-          백준 온라인 저지
-        </ExternalLinkInline>
-        의 방대한 문제 데이터베이스와 만나 국내외 15만 개발자의 성장을 돕고
-        있습니다.
+        블라 블라 블라 블라
       </Content>
       <Content>
-        솔브드만의 문제 난이도는 이제는 알고리즘 문제 난이도 체계의 de facto가
-        되어, 여러 서적에서 난이도 지표로 활용되고 다른 온라인 저지 및
-        프로그래밍 대회 출제자들이 활발히 참고하고 있습니다.
+          블라 블라 블라 블라
       </Content>
       <Space h={72} />
       <figure>
         <FullwidthImage
           src="/img/intro-icpc.jpg"
-          alt="ICPC World Finals Moscow에서 서강대학교 Redshift 팀이 입장하는 모습을 촬영한 사진."
+          alt="뭐 하나 더 넣을까"
         />
-        <MainImageCaption>ICPC World Finals Moscow (2021)</MainImageCaption>
+        <MainImageCaption>두번째 프로젝트겟죠?(20nn)</MainImageCaption>
       </figure>
       <SectionCaption>
-        다양한 문제를 창의적으로 정의하고 논리적으로 해결해나가고 있습니다.
+        흠 두번째 제목
       </SectionCaption>
       <LinksRow>
         <InternalLink href="/cv">이력</InternalLink>
-        <ExternalLink href="https://icpc.global/ICPCID/2ALMJW44APYS">
-          ICPCID
-        </ExternalLink>
       </LinksRow>
       <Space h={16} />
       <Content>
-        현실의 문제를 기술적으로 해결하는 것을 좋아하며, 기술적인 문제 자체를
-        해결하는 것도 즐깁니다. 솔브드 또한 기술적인 문제를 해결하는 필드에서
-        현실의 문제를 발견하고, 다시 현실의 문제를 기술적으로 해결해나가는
-        과정이자 결과물입니다.
+        블라블라
       </Content>
       <Content>
-        최대 규모의 국제 프로그래밍 대회인{" "}
-        <ExternalLinkInline href="https://icpc.global/">
-          국제 대학생 프로그래밍 대회(ICPC)
-        </ExternalLinkInline>{" "}
-        한국 대표로 결승에 진출하고, 대규모 국제 해커톤인{" "}
-        <ExternalLinkInline href="https://asia.hackjunction.com/home/">
-          정션 아시아
-        </ExternalLinkInline>{" "}
-        해커톤에서 2위를 차지하는 등 여러 대회에 도전하여 유수한 성과를
-        거두었습니다. 또한,{" "}
-        <ExternalLinkInline href="https://www.nypc.co.kr/">
-          넥슨 청소년 프로그래밍 챌린지(NYPC)
-        </ExternalLinkInline>{" "}
-        출제위원으로 여러 문제를 출제하였습니다.
+          대충 이런 삶을 살았습니다.
       </Content>
       <Space h={72} />
-      <figure>
+      {/*<figure>
         <FullwidthImage
           src="/img/intro-hb.jpg"
           alt="한별이가 그려진 아크릴 스탠드를 한 손으로 들고 이륙 준비 중인 비행기에서 찍은 사진."
@@ -262,7 +228,7 @@ const Page = () => {
           〈코딩하는 한별이와 은하 (수조 ver.)〉
         </ExternalLinkInline>
         를 만나보실 수 있습니다.
-      </Content>
+      </Content>*/}
       <Space h={160} />
     </MainContainer>
   );

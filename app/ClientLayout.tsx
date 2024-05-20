@@ -48,11 +48,11 @@ const ClientLayout = ({ children }: PropsWithChildren) => {
       <Fixed>
         <MainContainer>
           <TopLinksRow>
-            <TopLink href="/">홈</TopLink>
-            <TopLink href="/links">링크</TopLink>
-            <TopLink href="/cv">이력</TopLink>
-            <TopLink href="/gallery">작업</TopLink>
-            <TopLink href="/downloads">자료</TopLink>
+            <TopLink href="/wintery.com/">홈</TopLink>
+            <TopLink href="/wintery.com/links">링크</TopLink>
+            <TopLink href="/wintery.com/cv">이력</TopLink>
+            <TopLink href="/wintery.com/gallery">작업</TopLink>
+            <TopLink href="/wintery.com/downloads">자료</TopLink>
             <TopLinkExternal
               href="https://blog.shift.moe/"
               target="_blank"

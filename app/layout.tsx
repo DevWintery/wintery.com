@@ -6,7 +6,7 @@ import { Metadata, Viewport } from "next";
 import { Providers } from "./Providers";
 import ClientLayout from "./ClientLayout";
 
-const APP_TITLE = "shiftpsh";
+const APP_TITLE = "wintery";
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
@@ -31,33 +31,28 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://shiftpsh.com"),
+  metadataBase: new URL("https://devwintery.github.io/wintery.com/"),
   title: {
     template: `%s | ${APP_TITLE}`,
     default: APP_TITLE,
   },
-  description: "Suhyun Park - Software Engineer · Graphic Designer",
+  description: "Kyeongmin Kim - Game Developer",
   keywords: [
-    "Suhyun Park",
-    "shiftpsh",
-    "solved.ac",
-    "Software Engineer",
-    "Graphic Designer",
-    "서강대학교",
-    "박수현",
-    "솔브드",
+    "Kyeongmin Kim",
+    "wintery",
+    "Game Devloper",
   ],
   robots: {
-    index: true,
-    follow: true,
+    index: false,
+    follow: false,
   },
   openGraph: {
     type: "website",
-    title: "shiftpsh - Suhyun Park",
-    siteName: "shiftpsh",
-    description: "Suhyun Park - Software Engineer · Graphic Designer",
-    url: "https://shiftpsh.com",
-    images: "https://shiftpsh.com/og.png",
+    title: "wintery - Kyeongmin Kim",
+    siteName: "wintery",
+    description: "Kyeongmin Kim - Game Developer",
+    url: "https://devwintery.github.io/wintery.com/",
+    images: "https://img.freepik.com/premium-vector/snow-flower-logo_7267-11.jpg",
   },
 };
 
