@@ -10,151 +10,84 @@ const Page = () => {
       <Typo h3>학력</Typo>
       <Itemize>
         <Item>
-          <ExternalLinkInline href="https://sogang.ac.kr">
-            서강대학교
+          <ExternalLinkInline href="http://www.hoseo.ac.kr/Home/Main.mbz">
+            호서대학교
           </ExternalLinkInline>{" "}
-          컴퓨터공학과 학부(재학, 7학기)
-          <Year>2018. 3 &ndash; 2025. 2</Year>
+          게임소프트웨어학과 (재학, 7학기)
+          <Year>2019. 3 &ndash; 2025. 2</Year>
+        </Item>
+        <Item>
+          <ExternalLinkInline href="https://school.jbedu.kr/game/">
+            한국게임과학고등학교
+          </ExternalLinkInline>{" "}
+          게임소프트웨어학과 (재학, 7학기)
+          <Year>2016. 3 &ndash; 2019. 2</Year>
         </Item>
       </Itemize>
       <Typo h3>경력</Typo>
       <Itemize>
         <Item>
           <b>
-            <ExternalLinkInline href="https://solved.ac">
-              솔브드
+            <ExternalLinkInline href="">
+              주식회사 Nol
             </ExternalLinkInline>{" "}
-            대표
+            클라이언트 프로그래머
           </b>
-          <Year>2022. 12 &ndash; 현재</Year>
+          <Year>2021. 2 &ndash; 2022. 08</Year>
           <Itemize>
-            <Item>솔브드 프로젝트 전반의 기획 및 개발</Item>
             <Item>
-              <ExternalLinkInline href="https://solved.ac">
-                solved.ac
-              </ExternalLinkInline>{" "}
-              사이트의 개발 및 유지보수 (프론트엔드/백엔드/DevOps) &ndash;
-              Next.js, Express, AWS
-            </Item>
-            <Item>
-              <ExternalLinkInline href="https://solved.ac/arena">
-                아레나
-              </ExternalLinkInline>{" "}
-              대회의 코디네이션 및 검수
-            </Item>
-          </Itemize>
-        </Item>
-        <Item>
-          <b>
-            <ExternalLinkInline href="https://career.nexon.com/user/recruit/member/postList?joinCorp=GN">
-              엔진스튜디오(넥슨)
-            </ExternalLinkInline>{" "}
-            소프트웨어 엔지니어 (파트장)
-          </b>
-          <Year>2020. 6 &ndash; 2022. 11</Year>
-          <Itemize>
-            <Item>웹 프론트엔드 엔지니어링; 산업기능요원 복무만료</Item>
-            <Item>
-              <ExternalLinkInline href="https://www.intelligencelabs.tech/">
-                인텔리전스랩스
+              <ExternalLinkInline href = "https://play.google.com/store/apps/details?id=com.seolit.guardiansword">
+                가디언 소드 원정대 키우기 : 방치형 클리커
               </ExternalLinkInline>
-              와 협업하여 사내 분석 플랫폼 프론트엔드 설계 및 개발 &ndash; React
+              클라이언트 개발
             </Item>
             <Item>
-              <ExternalLinkInline href="https://www.nypc.co.kr/">
-                넥슨 청소년 프로그래밍 챌린지 (NYPC)
-              </ExternalLinkInline>{" "}
-              대회 참가자 시스템 프론트엔드 개발 &ndash; React
+              <ExternalLinkInline href="https://play.google.com/store/apps/details?id=com.nolab.levelup">
+                강철 기사단 키우기 : 방치형 RPG
+              </ExternalLinkInline>
+              클라이언트 및 서버 API 개발
             </Item>
-            <Item>
-              <ExternalLinkInline href="https://www.nypc.co.kr/">
-                넥슨 청소년 프로그래밍 챌린지 (NYPC)
-              </ExternalLinkInline>{" "}
-              출제사무국 선제/출제위원 (2020&ndash;2023)
-            </Item>
-          </Itemize>
-        </Item>
-        <Item>
-          <b>
-            <ExternalLinkInline href="https://hyperconnect.com/">
-              하이퍼커넥트
-            </ExternalLinkInline>{" "}
-            소프트웨어 엔지니어 (인턴)
-          </b>
-          <Year>2018. 6 &ndash; 2018. 8</Year>
-          <Itemize>
-            <Item>Android 엔지니어링</Item>
-            <Item>
-              기존 카메라 어플리케이션에 사용되던 리거시 Camera1 API를 Camera2
-              API로 마이그레이션 &ndash; Kotlin, RxJava
-            </Item>
-            <Item>JUnit과 Robolectric을 사용한 테스트 작성</Item>
           </Itemize>
         </Item>
       </Itemize>
       <Typo h3>수상 및 출전</Typo>
       <Itemize>
         <Item>
-          <b>
-            <ExternalLinkInline href="https://icpc.asia/">
-              International Collegiate Programming Contest (ICPC)
-            </ExternalLinkInline>{" "}
-            2024 아시아태평양지역 챔피언십, 하노이
-          </b>
-          <Year>2024. 3. 2</Year>팀 Redshift(박수현, 이준석, 채성우), Honorable,
-          37위
-        </Item>
-        <Item>
-          <ExternalLinkInline href="https://icpc-sinchon.io/suapc">
-            신촌지역 대학교 프로그래밍 동아리 연합 여름 대회 (SUAPC)
+          <ExternalLinkInline href="https://news.unn.net/news/articleView.html?idxno=502556">
+            Global Game Challenge(GGC)
           </ExternalLinkInline>{" "}
-          2023 Summer
-          <Year>2023. 8. 26</Year>팀 Redshift(박수현, 이준석, 채성우), 1위
+          2020
+          <Year>2020. 12. 18</Year>팀 Their Story(김경민, 이영광, 박다빈), 금상
         </Item>
         <Item>
           <b>
-            <ExternalLinkInline href="https://asia.hackjunction.com/">
-              Junction Asia
+            <ExternalLinkInline href="http://www.asandesk.co.kr/news/articleView.html?idxno=6320">
+              Global Game Challenge(GGC)
             </ExternalLinkInline>{" "}
-            2022 Chainapsis 트랙
+            2019
           </b>
-          <Year>2022. 8. 21</Year>팀 decoGit(박수현, 이수호, 정진주, 최희원),
-          2위
-        </Item>
-        <Item>
-          <ExternalLinkInline href="https://zibada.guru/gcj/">
-            Google Code Jam
-          </ExternalLinkInline>{" "}
-          Round 3, 2022
-          <Year>2022. 6. 5</Year>개인, 506위
+          <Year>2019. 11. 15</Year>팀 Life(김경민, 박명준, 박상민), 한국게임개발자협회상
         </Item>
         <Item>
           <b>
-            <ExternalLinkInline href="https://icpc.global/">
-              International Collegiate Programming Contest (ICPC)
-            </ExternalLinkInline>{" "}
-            제44회 월드 파이널, 모스크바
+          <ExternalLinkInline href="https://meister.hrdkorea.or.kr/sub/3/6/7/skillMatchTournament/prizeWinnerList.do">
+            전국기능경기대회
+          </ExternalLinkInline>{" "}
+          2018 게임개발 부문
           </b>
-          <Year>2021. 10. 6</Year>한국 대표팀, Redshift(박수현, 이준석, 이상원),
-          Honorable, 87위
+          <Year>2018. 10</Year> 팀(김경민, 김도경) 장려상
         </Item>
         <Item>
-          <ExternalLinkInline href="https://ucpc.me/">
-            전국 대학생 프로그래밍 대회 동아리 연합 여름 대회 (UCPC)
-          </ExternalLinkInline>{" "}
-          2021
-          <Year>2021. 8. 4</Year>팀 Redshift(박수현, 이준석, 전해성), 5등상,
-          12위
-        </Item>
-        <Item>
-          <ExternalLinkInline href="https://icpc.team/spc">
-            서강 프로그래밍 대회(SPC)
-          </ExternalLinkInline>{" "}
-          2018 Master Division
-          <Year>2018. 11. 23</Year>개인, 금상, 1위
+          <b>
+            <ExternalLinkInline href="https://meister.hrdkorea.or.kr/sub/3/6/7/skillMatchTournament/prizeWinnerList.do">
+              지방기능경기대회
+            </ExternalLinkInline>{" "}
+            2018 게임개발 부문
+          </b>
+          <Year>2018. 4</Year> 팀(김경민, 김도경) 1위
         </Item>
       </Itemize>
-      <Typo h3>프로젝트</Typo>
+      {/*<Typo h3>프로젝트</Typo>
       <Itemize>
         <Item>
           <b>
@@ -259,26 +192,33 @@ const Page = () => {
             </Item>
           </Itemize>
         </Item>
-      </Itemize>
+      </Itemize>*/}
       <Typo h3>기타 활동</Typo>
       <Itemize>
         <Item>
           <b>
-            <ExternalLinkInline href="https://ucpc.me">
-              전국 대학생 프로그래밍 대회 동아리 연합
-            </ExternalLinkInline>{" "}
-            회장
+            호서대학교 게임개발 'CYPICS' 팀장 & 부팀장
           </b>
-          <Year>2020. 4 &ndash; 2021. 1</Year>
+          <Year>2019. 3 &ndash; 소속중</Year>
         </Item>
         <Item>
-          <ExternalLinkInline href="https://icpc.team">
-            Sogang ICPC Team
-          </ExternalLinkInline>{" "}
-          학회장
-          <Year>2019. 1 &ndash; 2019. 12</Year>
+          <b>
+            호서대학교 학술동아리 'MAROSOFT' 프로그래밍 팀장
+          </b>
+          <Year>2020. 6 &ndash; 2021. 2</Year>
         </Item>
-        <Item>여러 프로그래밍 대회 운영, 출제 및 검수</Item>
+        <Item>
+          <b>
+            호서대학교 게임과 소속 연구실 Game Media Lab. 연구원 소속
+          </b>
+          <Year>2019. 6 &ndash; 2021. 2</Year>
+        </Item>
+        <Item>
+          <b>
+            호서대학교 학술동아리 'BUGSOFT 프로그래밍 팀장
+          </b>
+          <Year>2019. 3 &ndash; 2019. 7</Year>
+        </Item>
       </Itemize>
     </>
   );

@@ -11,7 +11,7 @@ const SolvedacResponseGuard = Record({
   rank: Number,
 });
 
-const URL = "https://solved.ac/api/v3/user/show?handle=shiftpsh";
+const URL = "https://solved.ac/api/v3/user/show?handle=ntf7595";
 
 const resolveSolvedacAlgoColor = (tier: number) => {
   if (tier == 1) return "#9d4900";

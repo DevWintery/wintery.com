@@ -14,12 +14,12 @@ const Layout = ({ children }: PropsWithChildren) => {
       <Space h={160} />
       <Typo h1>이력</Typo>
       <Tabs fullWidth>
-        <Link href="/cv" passHref legacyBehavior>
+        <Link href="/wintery.com/cv" passHref legacyBehavior>
           <Tab as="a" current={pathname === "/cv/"}>
             기본
           </Tab>
         </Link>
-        <Link href="/cv/competitive" passHref legacyBehavior>
+{/*        <Link href="/cv/competitive" passHref legacyBehavior>
           <Tab as="a" current={pathname === "/cv/competitive/"}>
             대회 참가
           </Tab>
@@ -28,7 +28,7 @@ const Layout = ({ children }: PropsWithChildren) => {
           <Tab as="a" current={pathname === "/cv/problemsetting/"}>
             대회 출제
           </Tab>
-        </Link>
+        </Link>*/}
       </Tabs>
       <Space h={32} />
       {children}

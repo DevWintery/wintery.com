@@ -15,16 +15,16 @@ const LinkItemBaekjoon = ({
       description={
         baekjoon ? (
           <>
-            shiftpsh{" "}
+            ntf7595{" "}
             <Typo description tabular>
               (#{baekjoon.rank})
             </Typo>
           </>
         ) : (
-          `shiftpsh`
+          `ntf7595`
         )
       }
-      href="https://www.acmicpc.net/user/shiftpsh"
+      href="https://www.acmicpc.net/user/ntf7595"
       color="#2e9afe"
     />
   );

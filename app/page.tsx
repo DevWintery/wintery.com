@@ -80,10 +80,10 @@ const Page = () => {
       <Space h={160} />
       <Logo src="/wintery.com/img/wintery-logo.png" alt="wintery" />
       <BiggerSectionCaption>
-        <IntroBold>안녕하세요, 게임 프로그래머 김경민입니다. </IntroBold>{" "}
-        홈페이지 만드는거 넘모 어렵습니다 살려주세요
-        여기에 무슨 글을 채워 넣을까요
-        고민하고있어요
+        <IntroBold>안녕하세요, 게임 개발자 김경민입니다. </IntroBold>{" "}
+          게임을 통해 사람들에게 즐거움을 주는 것이 저의 가장 큰 목표입니다.
+          다양한 게임 프로젝트에 참여하며, 항상 더 나은 게임을 만들기 위해 노력하고 있습니다.
+          게임을 사랑하는 마음으로, 더 나은 플레이 경험을 제공하기 위해 끊임없이 공부하고 개발하고 있습니다.
       </BiggerSectionCaption>
       <Space h={32} />
       <Typo h3 no-margin>
@@ -97,21 +97,8 @@ const Page = () => {
           </HistoryIcon>
           <HistoryContent>
             <a href={`mailto:${"dev.wintery@gmail.com"}`}>
-              <Email
-                src="/img/email.svg"
-                alt={"dev.wintery@gmail.com"}
-              />
+               dev.wintery@gmail.com
             </a>
-          </HistoryContent>
-        </HistoryEntry>
-        <HistoryEntry>
-          <HistoryIcon>
-            <IconBriefcase />
-          </HistoryIcon>
-          <HistoryContent>
-            <ExternalLinkInline>
-              무직
-            </ExternalLinkInline>{" "}
           </HistoryContent>
         </HistoryEntry>
         <HistoryEntry>
@@ -146,44 +133,58 @@ const Page = () => {
       <Space h={72} />
       <figure>
         <FullwidthImage
-          src="/img/intro-solvedac.jpg"
-          alt="뭔 사진을 넣으면 좋겠네요"
+          src="/wintery.com/img/gallery.png"
+          alt="내가 참여한 프로젝트들 사진"
         />
-        <MainImageCaption>저의 프로젝트에요!(20nn)</MainImageCaption>
+        <MainImageCaption>참여한 프로젝트 일부(~2024.05)</MainImageCaption>
       </figure>
       <SectionCaption>
-        대충 설명좀 넣고
+          다양한 게임 개발 경험으로 꾸준히 성장하고 있습니다.
       </SectionCaption>
       <LinksRow>
-        <ExternalLink href="">깃허브</ExternalLink>
+          <ExternalLink href="https://github.com/DevWintery">Github</ExternalLink>
+          <ExternalLink href="/wintery.com/cv">이력</ExternalLink>
       </LinksRow>
       <Space h={16} />
       <Content>
-        블라 블라 블라 블라
+          게임 개발에 대한 열정으로 다양한 프로젝트에 참여하며 꾸준히 역량을 강화하고 발전시키고 있습니다.
+
       </Content>
       <Content>
-          블라 블라 블라 블라
+          앞으로도 끊임없이 배우고 도전하며, 게임 개발 분야에서 최고의 전문가로 성장해 나가고자 합니다.
       </Content>
       <Space h={72} />
       <figure>
         <FullwidthImage
-          src="/img/intro-icpc.jpg"
-          alt="뭐 하나 더 넣을까"
+          src="/wintery.com/img/seminar.png"
+          alt="세미나를 진행하는 사진들"
         />
-        <MainImageCaption>두번째 프로젝트겟죠?(20nn)</MainImageCaption>
+        <MainImageCaption>세미나(2019, 2023)</MainImageCaption>
       </figure>
       <SectionCaption>
-        흠 두번째 제목
+          지식을 공유하며 성장합니다.
       </SectionCaption>
       <LinksRow>
         <InternalLink href="/cv">이력</InternalLink>
       </LinksRow>
       <Space h={16} />
       <Content>
-        블라블라
+          지식을 공유하는 것을 좋아하는 이유는 가르침을 주고받는 동안 시야가 넓어지고, 새로운 관점과 아이디어를 얻을 수 있기 때문입니다. 이러한 경험들은 저를 더욱 성장하게 만들며, 함께 배우고 발전하는 과정을 즐깁니다.
       </Content>
       <Content>
-          대충 이런 삶을 살았습니다.
+          고등학교부터 배운지식을 신입생에게 알려주는{" "}
+          <ExternalLinkInline href = "https://ashwinter.notion.site/61929127292e467086b8d6851058b27e?pvs=4">
+              C++세미나
+          </ExternalLinkInline>
+          와 {" "}
+          <ExternalLinkInline href = "https://ashwinter.notion.site/Unity-ef5f5c6d247e4c1092e867c802874469?pvs=4">
+              Unity세미나
+          </ExternalLinkInline>
+          를 진행하고, 2년간 회사를 다니며 얻게된 실무경험을 공유하고 중요하다고 생각하는 개념을 알려주는 {" "}
+          <ExternalLinkInline href = "https://ashwinter.notion.site/Cypics-2023-0b9262b6f8494eb88dd20aaffd4a435f?pvs=4">
+              세미나
+          </ExternalLinkInline>
+          를 진행했습니다.
       </Content>
       <Space h={72} />
       {/*<figure>

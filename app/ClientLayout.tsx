@@ -52,7 +52,7 @@ const ClientLayout = ({ children }: PropsWithChildren) => {
             <TopLink href="/wintery.com/links">링크</TopLink>
             <TopLink href="/wintery.com/cv">이력</TopLink>
             <TopLink href="/wintery.com/gallery">작업</TopLink>
-            <TopLink href="/wintery.com/downloads">자료</TopLink>
+{/*            <TopLink href="/wintery.com/downloads">자료</TopLink>
             <TopLinkExternal
               href="https://blog.shift.moe/"
               target="_blank"
@@ -60,7 +60,7 @@ const ClientLayout = ({ children }: PropsWithChildren) => {
             >
               블로그
             </TopLinkExternal>
-            <TopLink href="/hanbyeol">☆</TopLink>
+            <TopLink href="/hanbyeol">☆</TopLink>*/}
           </TopLinksRow>
         </MainContainer>
       </Fixed>

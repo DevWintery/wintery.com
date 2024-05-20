@@ -1,17 +1,9 @@
 import {
-  AtcoderAlgoResponse,
-  CodeforcesResponse,
   Jyantama3Response,
   SolvedacResponse,
-  StackOverflowResponse,
-  TopcoderResponse,
-  fetchAtcoderAlgo,
-  fetchCodeforces,
   fetchJyantama3,
   fetchJyantama4,
   fetchSolvedac,
-  fetchStackOverflow,
-  fetchTopcoder,
 } from "./loaders";
 import { BaekjoonResponse, fetchBaekjoon } from "./loaders/baekjoon";
 

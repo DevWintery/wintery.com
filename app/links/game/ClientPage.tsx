@@ -13,7 +13,7 @@ const Page = ({ profile }: { profile: GameDynamicProfile }) => {
   return (
     <>
       <Typo h2>주력 게임</Typo>
-      <Typo description>
+     {/* <Typo description>
         <IconCopy /> 버튼을 눌러 친구 코드, UID 등을 복사할 수 있습니다.
       </Typo>
       <Space h="1em" />
@@ -77,7 +77,7 @@ const Page = ({ profile }: { profile: GameDynamicProfile }) => {
           color="#ff9d00"
         />
       </Links>
-      <Divider />
+      <Divider />*/}
       <Typo h2>아이디가 있는 게임</Typo>
       <Typo description>생각나는 대로 업데이트 예정입니다.</Typo>
     </>

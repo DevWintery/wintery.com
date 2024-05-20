@@ -1,7 +1,6 @@
 import { Typo } from "@solved-ac/ui-react";
 import { IconChartBar, IconCheck } from "@tabler/icons-react";
 import {
-  CodeforcesResponse,
   SolvedacResponse,
 } from "../../../dynamicProfile/loaders";
 import { formatNumber } from "../../../utils/formatNumber";
@@ -31,10 +30,10 @@ const LinkItemSolvedac = ({
             </Typo>
           </>
         ) : (
-          `shiftpsh`
+          `ntf7595`
         )
       }
-      href="https://solved.ac/profile/shiftpsh"
+      href="https://solved.ac/profile/ntf7595"
       color={solvedac ? solvedac.tierColor : "#17ce3a"}
     />
   );

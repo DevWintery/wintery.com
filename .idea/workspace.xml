@@ -6,8 +6,34 @@
   <component name="ChangeListManager">
     <list default="true" id="8e7d9798-ff13-4160-8d21-5b9852df9130" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/cv/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/cv/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/cv/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/cv/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/links/(external)/LinkItemAtCoderAlgo.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/links/(external)/LinkItemBaekjoon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/links/(external)/LinkItemBaekjoon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/links/(external)/LinkItemCodeforces.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/links/(external)/LinkItemSolvedac.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/links/(external)/LinkItemSolvedac.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/links/(external)/LinkItemStackOverflow.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/links/(external)/LinkItemTopcoder.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/links/ClientPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/links/ClientPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/links/game/ClientPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/links/game/ClientPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/links/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/links/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/wtinery-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/wintery-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamicProfile/load.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicProfile/load.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamicProfile/loadGames.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicProfile/loadGames.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamicProfile/loaders/atcoderAlgo.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamicProfile/loaders/baekjoon.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicProfile/loaders/baekjoon.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamicProfile/loaders/codeforces.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamicProfile/loaders/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicProfile/loaders/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamicProfile/loaders/solvedac.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicProfile/loaders/solvedac.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamicProfile/loaders/stackOverflow.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamicProfile/loaders/topcoder.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/email-solvedac.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/email.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/intro-hb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/intro-icpc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/intro-solvedac.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/logo-splash.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/specs-hanbyeol.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,23 +52,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "F:/wintery.com/public/img",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "editor.preferences.tabs",
-    "ts.external.directory.path": "F:\\wintery.com\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/wintery.com/public/img&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;F:\\wintery.com\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\wintery.com\public\img" />
@@ -64,6 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1716162380718</updated>
       <workItem from="1716162381984" duration="909000" />
+      <workItem from="1716180241782" duration="8539000" />
     </task>
     <servers />
   </component>
@@ -80,17 +107,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/app/page.tsx</url>
-          <line>98</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

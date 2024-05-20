@@ -14,12 +14,12 @@ const Layout = ({ children }: PropsWithChildren) => {
       <Space h={160} />
       <Typo h1>링크</Typo>
       <Tabs fullWidth>
-        <Link href="/links" passHref legacyBehavior>
+        <Link href="/wintery.com/links" passHref legacyBehavior>
           <Tab as="a" current={pathname === "/links/"}>
             프로필
           </Tab>
         </Link>
-        <Link href="/links/game" passHref legacyBehavior>
+        <Link href="/wintery.com/links/game" passHref legacyBehavior>
           <Tab as="a" current={pathname === "/links/game/"}>
             게임
           </Tab>
@@ -29,9 +29,7 @@ const Layout = ({ children }: PropsWithChildren) => {
       {children}
       <Space h={64} />
       <Typo description>
-        &lsquo;shiftpsh&rsquo; 아이디를 사용하더라도 이 목록에 없는 경우, 제
-        프로필 또는 계정이 아닐 가능성이 있습니다. 확실하지 않다면 문의해
-        주세요.
+          해당 프로필에 존재하지않는곳에 있는 같은 닉네임은 제가 아닙니다.
       </Typo>
       <Space h={160} />
     </MainContainer>
