@@ -20,7 +20,7 @@ const Page = () => {
           <ExternalLinkInline href="https://school.jbedu.kr/game/">
             한국게임과학고등학교
           </ExternalLinkInline>{" "}
-          게임소프트웨어학과 (재학, 7학기)
+            졸업
           <Year>2016. 3 &ndash; 2019. 2</Year>
         </Item>
       </Itemize>

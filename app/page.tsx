@@ -127,8 +127,8 @@ const Page = () => {
       </HistoryEntries>
       <Space h={16} />
       <LinksRow>
-        <InternalLink href="/links">모든 연락처/링크</InternalLink>
-        <InternalLink href="/cv">자세한 이력</InternalLink>
+        <InternalLink href="/wintery.com/links">모든 연락처/링크</InternalLink>
+        <InternalLink href="/wintery.com/cv">자세한 이력</InternalLink>
       </LinksRow>
       <Space h={72} />
       <figure>
@@ -165,7 +165,7 @@ const Page = () => {
           지식을 공유하며 성장합니다.
       </SectionCaption>
       <LinksRow>
-        <InternalLink href="/cv">이력</InternalLink>
+        <InternalLink href="/wintery.com/cv">이력</InternalLink>
       </LinksRow>
       <Space h={16} />
       <Content>
