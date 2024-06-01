@@ -1,47 +1,46 @@
 import styled from "@emotion/styled";
 import Link from "next/link";
+import { GOTHAM } from "../../style/font"; // 폰트 가져오기
 
 const ItemContainer = styled.div`
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     overflow: hidden;
     cursor: pointer;
-    &:hover .title {
-        opacity: 1;
-    }
+    margin-bottom: 16px; /* 각 아이템 사이의 간격 추가 */
+    text-align: center; /* 텍스트 중앙 정렬 */
 `;
 
 const Image = styled.img`
     width: 100%;
-    height: 100%;
+    height: auto; /* 이미지 비율을 유지하며 조정 */
     object-fit: cover;
     transition: transform 0.3s, opacity 0.3s;
+    display: block; /* 이미지가 블록 요소로 취급되도록 설정 */
+
     &:hover {
-        transform: scale(1.1);
-        opacity: 0.7;
+        transform: scale(0.95); /* 호버 시 살짝 작아지도록 설정 */
     }
 `;
 
 const Title = styled.div`
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     color: black;
-    font-size: 1.5em;
-    opacity: 0;
-    transition: opacity 0.3s;
-    text-align: center;
-    pointer-events: none;
-    z-index: 1;
+    font-size: 1.2em; /* 폰트 크기 조정 */
+    font-family: ${GOTHAM};
+    margin-top: 8px; /* 이미지와 제목 사이의 간격 */
 `;
 
 const GalleryItemContainer = styled.div`
     position: relative;
     width: 100%;
-    height: 0;
-    padding-bottom: 100%; /* 1:1 비율을 유지하기 위해 패딩을 설정 */
+    padding-bottom: 100%; /* 1:1 비율을 유지 */
     overflow: hidden;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 16px; /* 각 아이템 사이의 간격 추가 */
 `;
 
 interface GalleryItemProps {
@@ -52,14 +51,12 @@ interface GalleryItemProps {
 
 const GalleryItem = ({ title, imageUrl, link }: GalleryItemProps) => {
     return (
-        <GalleryItemContainer>
-            <Link href={link} passHref>
-                <ItemContainer>
-                    <Image src={imageUrl} alt={title} />
-                    <Title className="title">{title}</Title>
-                </ItemContainer>
-            </Link>
-        </GalleryItemContainer>
+        <Link href={link} passHref>
+            <ItemContainer>
+                <Image src={imageUrl} alt={title}/>
+                <Title className="title">{title}</Title>
+            </ItemContainer>
+        </Link>
     );
 };
 
