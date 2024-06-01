@@ -12,22 +12,9 @@ const GalleryContainer = styled.div`
 `;
 
 const images = [
-    { title: "Image 1", imageUrl: "/wintery.com/img/wintery-logo.png", link: "/wintery.com/gallery/image1" },
-    { title: "Image 2", imageUrl: "/wintery.com/img/wintery-logo.png", link: "/wintery.com/gallery/image2" },
-    { title: "Image 2", imageUrl: "/wintery.com/img/wintery-logo.png", link: "/wintery.com/gallery/image2" },
-    { title: "Image 2", imageUrl: "/wintery.com/img/wintery-logo.png", link: "/wintery.com/gallery/image2" },
-    { title: "Image 2", imageUrl: "/wintery.com/img/wintery-logo.png", link: "/wintery.com/gallery/image2" },
-    { title: "Image 2", imageUrl: "/wintery.com/img/wintery-logo.png", link: "/wintery.com/gallery/image2" },
-    { title: "Image 2", imageUrl: "/wintery.com/img/wintery-logo.png", link: "/wintery.com/gallery/image2" },
-    { title: "Image 2", imageUrl: "/wintery.com/img/wintery-logo.png", link: "/wintery.com/gallery/image2" },
-    { title: "Image 1", imageUrl: "/wintery.com/img/wintery-logo.png", link: "/wintery.com/gallery/image1" },
-    { title: "Image 2", imageUrl: "/wintery.com/img/wintery-logo.png", link: "/wintery.com/gallery/image2" },
-    { title: "Image 2", imageUrl: "/wintery.com/img/wintery-logo.png", link: "/wintery.com/gallery/image2" },
-    { title: "Image 2", imageUrl: "/wintery.com/img/wintery-logo.png", link: "/wintery.com/gallery/image2" },
-    { title: "Image 2", imageUrl: "/wintery.com/img/wintery-logo.png", link: "/wintery.com/gallery/image2" },
-    { title: "Image 2", imageUrl: "/wintery.com/img/wintery-logo.png", link: "/wintery.com/gallery/image2" },
-    { title: "Image 2", imageUrl: "/wintery.com/img/wintery-logo.png", link: "/wintery.com/gallery/image2" },
-    { title: "Image 2", imageUrl: "/wintery.com/img/wintery-logo.png", link: "/wintery.com/gallery/image2" },
+    { title: "호서대학교 졸업작품", imageUrl: "/wintery.com/img/gallery/shadow_ops.png", link: "https://ashwinter.notion.site/Project-S1-b3adf6e933c8435faf8a332e5c71b0c9?pvs=4" },
+    { title: "Medical Metaverse(외주)", imageUrl: "/wintery.com/img/gallery/unity.jpg", link: "https://ashwinter.notion.site/Medical-Metaverse-218888941586459d9c9137c8916e3cfe?pvs=4" },
+    { title: "외주", imageUrl: "/wintery.com/img/gallery/real_world.png", link: "https://ashwinter.notion.site/2240d41590d74c11acc44c2003420caa?pvs=4" },
     // 더 많은 이미지 추가
 ];
 

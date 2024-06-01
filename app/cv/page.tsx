@@ -206,7 +206,7 @@ const Page = () => {
       <Itemize>
         <Item>
           <b>
-            호서대학교 게임개발 'CYPICS' 팀장 & 부팀장
+            호서대학교 게임개발 동아리 'CYPICS' 팀장 & 부팀장
           </b>
           <Year>2019. 3 &ndash; 소속중</Year>
         </Item>
