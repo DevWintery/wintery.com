@@ -1,35 +1,46 @@
 import styled from "@emotion/styled";
-import GalleryItem from "./GalleryItem";
-
-const GalleryContainer = styled.div`
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
-    gap: 16px;
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-`;
-
-const images = [
-    { title: "호서대학교 졸업작품", imageUrl: "/wintery.com/img/gallery/shadow_ops.png", link: "https://ashwinter.notion.site/Project-S1-b3adf6e933c8435faf8a332e5c71b0c9?pvs=4" },
-    { title: "Medical Metaverse(외주)", imageUrl: "/wintery.com/img/gallery/unity.jpg", link: "https://ashwinter.notion.site/Medical-Metaverse-218888941586459d9c9137c8916e3cfe?pvs=4" },
-    { title: "외주", imageUrl: "/wintery.com/img/gallery/real_world.png", link: "https://ashwinter.notion.site/2240d41590d74c11acc44c2003420caa?pvs=4" },
-    // 더 많은 이미지 추가
-];
+import {Typo} from "@solved-ac/ui-react";
+import {IconBrandNotion, IconAt, IconBrandDiscord, IconBrandGithub} from "@tabler/icons-react";
+import {GalleryLinkItem, GalleryLinks} from "./GalleryLinks";
 
 const GalleryPage = () => {
     return (
-        <GalleryContainer>
-            {images.map((img, index) => (
-                <GalleryItem
-                    key={index}
-                    title={img.title}
-                    imageUrl={img.imageUrl}
-                    link={img.link}
-                />
-            ))}
-        </GalleryContainer>
+        <>
+            <Typo h2>출시한 게임</Typo>
+                <GalleryLinks>
+                    <GalleryLinkItem
+                        icon={<IconBrandNotion />}
+                        caption="강철 기사단 키우기 : 방치형 RPG"
+                        description={`
+                        게임의 주요 컨텐츠를 구현
+                        Python을 활용해 데이터 테이블 자동화 시스템을 제작
+                        데이터 바인딩을 통해 UI의 동기화를 자동화
+                        FSM을 활용하여 Scene의 상태를 부여해 각 상태에 대한 로직을 정의
+                        라이브 서비스에는 신속한 업데이트를 위해 유지보수가 중요하다는걸 배움`}
+                        href = "https://www.notion.so/ashwinter/RPG-110bf3b7b1b4808981a0e6ebf3527ff1?pvs=4"
+                        color="#000000"
+                    />
+                    <GalleryLinkItem
+                        icon={<IconBrandNotion />}
+                        caption="가디언 소드 원정대 키우기 : 방치형 클리커"
+                        description={`
+                        게임의 모든 컨텐츠를 구현
+                        
+                        `}
+                        href = "https://www.notion.so/ashwinter/111bf3b7b1b48072a062d57eeefdd5fa?pvs=4"
+                        color="#000000"
+                    />
+                </GalleryLinks>
+            <Typo h2>2023년</Typo>
+
+            <Typo h2>2022년</Typo>
+
+            <Typo h2>2021년</Typo>
+
+            <Typo h2>2020년</Typo>
+
+            <Typo h2>2019년</Typo>
+        </>
     );
 };
 

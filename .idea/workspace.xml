@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="8e7d9798-ff13-4160-8d21-5b9852df9130" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/gallery/GalleryItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/gallery/GalleryItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ClientLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/ClientLayout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/gallery/GalleryItem.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/gallery/GalleryPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/gallery/GalleryPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +18,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -32,7 +38,8 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/wintery.com/app&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/wintery.com&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -59,7 +66,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.17011.90" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.22855.79" />
       </set>
     </attachedChunks>
   </component>
@@ -74,6 +81,13 @@
       <workItem from="1716162381984" duration="909000" />
       <workItem from="1716180241782" duration="10515000" />
       <workItem from="1717205308785" duration="4660000" />
+      <workItem from="1719507809731" duration="568000" />
+      <workItem from="1719510680491" duration="308000" />
+      <workItem from="1719579025102" duration="3093000" />
+      <workItem from="1719594363420" duration="688000" />
+      <workItem from="1727170559539" duration="285000" />
+      <workItem from="1727170856252" duration="2678000" />
+      <workItem from="1728069255053" duration="1721000" />
     </task>
     <servers />
   </component>
