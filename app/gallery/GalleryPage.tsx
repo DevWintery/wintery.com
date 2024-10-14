@@ -6,8 +6,15 @@ import {GalleryLinkItem, GalleryLinks} from "./GalleryLinks";
 const GalleryPage = () => {
     return (
         <>
-            <Typo h2>출시한 게임</Typo>
+            <Typo h2>출시한 게임(2021년 ~ 2022년)</Typo>
                 <GalleryLinks>
+                    <GalleryLinkItem
+                        icon={<IconBrandNotion />}
+                        caption="가디언 소드 원정대 키우기 : 방치형 클리커"
+                        description={`게임의 모든 컨텐츠를 구현`}
+                        href = "https://www.notion.so/ashwinter/111bf3b7b1b48072a062d57eeefdd5fa?pvs=4"
+                        color="#000000"
+                    />
                     <GalleryLinkItem
                         icon={<IconBrandNotion />}
                         caption="강철 기사단 키우기 : 방치형 RPG"
@@ -19,14 +26,33 @@ const GalleryPage = () => {
                         href = "https://www.notion.so/ashwinter/RPG-110bf3b7b1b4808981a0e6ebf3527ff1?pvs=4"
                         color="#000000"
                     />
-                    <GalleryLinkItem
-                        icon={<IconBrandNotion />}
-                        caption="가디언 소드 원정대 키우기 : 방치형 클리커"
-                        description={`게임의 모든 컨텐츠를 구현`}
-                        href = "https://www.notion.so/ashwinter/111bf3b7b1b48072a062d57eeefdd5fa?pvs=4"
-                        color="#000000"
-                    />
                 </GalleryLinks>
+            <Typo h2>2024년</Typo>
+            <GalleryLinkItem
+                icon={<IconBrandNotion />}
+                caption="졸업작품"
+                description={`호서대학교 졸업작품 출품작
+                서버개발 및 클라이언트 동기화 작업을 담당`}
+                href = "https://www.notion.so/ashwinter/Project-S1-b3adf6e933c8435faf8a332e5c71b0c9?pvs=4"
+                color="#000000"
+            />
+            <Typo h2>2023년</Typo>
+            <GalleryLinkItem
+                icon={<IconBrandNotion />}
+                caption="Hacking Rat"
+                description={`호서대학교 2023게임잼 대상 수상작
+                코드 구조, 플레이어, 보스 전투등을 제작`}
+                href = "https://github.com/DevWintery/HackingRat"
+                color="#000000"
+            />
+            <GalleryLinkItem
+                icon={<IconBrandNotion />}
+                caption="Medical Metaverse(외주)"
+                description={`VR 의료 시뮬레이션
+                수술이 진행되는 모든 컨텐츠 구현을 담당`}
+                href = "https://www.notion.so/ashwinter/Medical-Metaverse-218888941586459d9c9137c8916e3cfe?pvs=4"
+                color="#000000"
+            />
             <Typo h2>2019년</Typo>
             <GalleryLinkItem
                 icon={<IconBrandNotion />}
@@ -37,6 +63,14 @@ const GalleryPage = () => {
                 color="#000000"
             />
             <Typo h2>2018년</Typo>
+            <GalleryLinkItem
+                icon={<IconBrandNotion />}
+                caption="기능경기대회 프레임워크"
+                description={`기능경기대회 게임부문에 나가기위해 제작한
+                DirectX9 프레임워크`}
+                href = "https://github.com/DevWintery/DirectX_SimpleFramework"
+                color="#000000"
+            />
             <GalleryLinkItem
                 icon={<IconBrandNotion />}
                 caption="Ruin Dungeon"

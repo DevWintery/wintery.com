@@ -49,7 +49,7 @@ const ClientLayout = ({ children }: PropsWithChildren) => {
         <MainContainer>
           <TopLinksRow>
             <TopLink href="/wintery.com/">홈</TopLink>
-            <TopLink href="links">링크</TopLink>
+            <TopLink href="/wintery.com/links">링크</TopLink>
             <TopLink href="/wintery.com/cv">이력</TopLink>
             <TopLink href="/wintery.com/gallery">작업</TopLink>
 {/*            <TopLink href="/wintery.com/downloads">자료</TopLink>

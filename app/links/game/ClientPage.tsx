@@ -8,78 +8,53 @@ import { Links } from "../Links";
 import LinkItemJyantama from "./(external)/LinkItemJyantama";
 
 const Page = ({ profile }: { profile: GameDynamicProfile }) => {
-  const { jyantama3, jyantama4 } = profile;
-
   return (
     <>
       <Typo h2>주력 게임</Typo>
-     {/* <Typo description>
-        <IconCopy /> 버튼을 눌러 친구 코드, UID 등을 복사할 수 있습니다.
-      </Typo>
       <Space h="1em" />
       <Links>
         <LinkItem
-          icon={<IconBrandSteam />}
-          caption="Steam"
-          description="shiftpsh"
-          href="https://steamcommunity.com/id/shiftpsh"
-          color="#00adee"
-        />
-        <CopyLinkItem
-          icon={<GameIcon src="/img/games/maimai-48px.png" />}
+          icon={<GameIcon src="/img/games/nikke.png" />}
           caption={
             <>
-              maimai DX
-              <br />
-              <Typo description small>
-                BUDDiES &middot; Intl. ver.
-              </Typo>
+              니케
             </>
           }
           description={
             <>
-              ｓｏｌｖｅｄａｃ{" "}
-              <Typo description tabular>
-                (15,671)
-              </Typo>
+              아이네 <Typo description>(한국)</Typo>
               <br />
               <Typo readable small>
-                7061399728945
+                  친구코드 : 09178374
               </Typo>
             </>
           }
-          copyText="7061399728945"
-          copyTextMessage="친구 코드를 복사했습니다."
-          color="#42bbcd"
-        />
-        <LinkItemJyantama jyantama3={jyantama3} jyantama4={jyantama4} />
-        <LinkItem
-          icon={<GameIcon src="/img/games/maple-48px.png" />}
-          caption={
-            <>
-              메이플스토리
-              <br />
-              <Typo description small>
-                KMS
-              </Typo>
-            </>
-          }
-          description={
-            <>
-              싶프트 <Typo description>(Lv.271 아크)</Typo>
-              <br />
-              <Typo readable small>
-                오로라
-              </Typo>
-            </>
-          }
-          href="https://maple.gg/u/%EC%8B%B6%ED%94%84%ED%8A%B8"
+          href=""
           color="#ff9d00"
         />
+          <LinkItem
+              icon={<GameIcon src="/img/games/lostark48.png" />}
+              caption={
+                  <>
+                      로스트아크
+                  </>
+              }
+              description={
+                  <>
+                      윤겨을 <Typo description>(바드)</Typo>
+                      <br />
+                      <Typo readable small>
+                          카단
+                      </Typo>
+                  </>
+              }
+              href="https://loawa.com/char/%EC%9C%A4%EA%B2%A8%EC%9D%84"
+              color="#ff9d00"
+          />
       </Links>
-      <Divider />*/}
-      <Typo h2>아이디가 있는 게임</Typo>
-      <Typo description>생각나는 대로 업데이트 예정입니다.</Typo>
+      <Divider />
+{/*      <Typo h2>아이디가 있는 게임</Typo>
+      <Typo description>생각나는 대로 업데이트 예정입니다.</Typo>*/}
     </>
   );
 };

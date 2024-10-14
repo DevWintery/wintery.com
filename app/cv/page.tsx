@@ -13,7 +13,7 @@ const Page = () => {
           <ExternalLinkInline href="http://www.hoseo.ac.kr/Home/Main.mbz">
             호서대학교
           </ExternalLinkInline>{" "}
-          게임소프트웨어학과 (재학, 7학기)
+          게임소프트웨어학과 (2025년 2월 졸업예정)
           <Year>2019. 3 &ndash; 2025. 2</Year>
         </Item>
         <Item>
