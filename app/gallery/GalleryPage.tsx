@@ -11,7 +11,7 @@ const GalleryPage = () => {
                     <GalleryLinkItem
                         icon={<IconBrandNotion />}
                         caption="가디언 소드 원정대 키우기 : 방치형 클리커"
-                        description={`게임의 모든 컨텐츠를 구현`}
+                        description={`프로그래머 1인 참여로 게임의 모든 컨텐츠를 구현`}
                         href = "https://www.notion.so/ashwinter/111bf3b7b1b48072a062d57eeefdd5fa?pvs=4"
                         color="#000000"
                     />
@@ -32,7 +32,7 @@ const GalleryPage = () => {
                 icon={<IconBrandNotion />}
                 caption="졸업작품"
                 description={`호서대학교 졸업작품 출품작
-                서버개발 및 클라이언트 동기화 작업을 담당`}
+                서버개발 및 클라이언트 동기화를 구현`}
                 href = "https://www.notion.so/ashwinter/Project-S1-b3adf6e933c8435faf8a332e5c71b0c9?pvs=4"
                 color="#000000"
             />
@@ -49,7 +49,7 @@ const GalleryPage = () => {
                 icon={<IconBrandNotion />}
                 caption="Medical Metaverse(외주)"
                 description={`VR 의료 시뮬레이션
-                수술이 진행되는 모든 컨텐츠 구현을 담당`}
+                수술이 진행되는 모든 컨텐츠 구현`}
                 href = "https://www.notion.so/ashwinter/Medical-Metaverse-218888941586459d9c9137c8916e3cfe?pvs=4"
                 color="#000000"
             />
@@ -58,13 +58,13 @@ const GalleryPage = () => {
                 icon={<IconBrandNotion />}
                 caption="Life"
                 description={`2019GGC 한국게임개발자협회상 수상작
-                모든 컨텐츠를 구현`}
+                프로그래머 1인 참여로 게임의 모든 컨텐츠를 구현`}
                 href = "https://www.notion.so/ashwinter/Life-111bf3b7b1b48064b15be931bf30bb6c?pvs=4"
                 color="#000000"
             />
             <Typo h2>2018년</Typo>
             <GalleryLinkItem
-                icon={<IconBrandNotion />}
+                icon={<IconBrandGithub />}
                 caption="기능경기대회 프레임워크"
                 description={`기능경기대회 게임부문에 나가기위해 제작한
                 DirectX9 프레임워크`}
@@ -72,29 +72,29 @@ const GalleryPage = () => {
                 color="#000000"
             />
             <GalleryLinkItem
-                icon={<IconBrandNotion />}
+                icon={<IconBrandGithub />}
                 caption="Ruin Dungeon"
                 description={`한국게임과학고등학교 2학년 겨울합숙 작품
-                모든 컨텐츠를 구현`}
-                href = "https://www.notion.so/ashwinter/Ruin-Dungeon-111bf3b7b1b480fe90a7f0c7a1dd4379?pvs=4"
+                프로그래머 1인 참여로 게임의 모든 컨텐츠를 구현`}
+                href = "https://github.com/DevWintery/RuinDungeon"
                 color="#000000"
             />
             <GalleryLinkItem
-                icon={<IconBrandNotion />}
+                icon={<IconBrandGithub />}
                 caption="TimeFall"
                 description={`한국게임과학고등학교 2학년 여름합숙 작품
-                모든 컨텐츠를 구현`}
-                href = "https://www.notion.so/ashwinter/TimeFall-111bf3b7b1b48012bc15e8b2bfd88543?pvs=4"
+                프로그래머 1인 참여로 게임의 모든 컨텐츠를 구현`}
+                href = "https://github.com/DevWintery/TimeFall"
                 color="#000000"
             />
             <Typo h2>2017년</Typo>
             <GalleryLinkItem
-                icon={<IconBrandNotion />}
+                icon={<IconBrandGithub />}
                 caption="TimeHero"
                 description={`한국게임과학고등학교 1학년 여름합숙 작품
                 cocos2d-x를 이용하여 제작
-                모든 컨텐츠를 구현`}
-                href = "https://www.notion.so/ashwinter/TimeHero-115bf3b7b1b480c7b12ddfc814b20df5?pvs=4"
+                프로그래머 1인 참여로 게임의 모든 컨텐츠를 구현`}
+                href = "https://github.com/DevWintery/TimeHero"
                 color="#000000"
             />
         </>
